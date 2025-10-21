@@ -8,7 +8,7 @@ mkdir -p remote_results/AILSII
 
 for i in {0..7}; do
     inst=${instances[$i]}
-    csv="remote_results/AILSII/${inst}.csv"
+
     for j in {1..1}; do     
         echo "Run $j instance $inst"
         java -jar -Xms2000m -Xmx4000m bin/AILSII.jar \
@@ -17,9 +17,9 @@ for i in {0..7}; do
              -stoppingCriterion Time \
              -limit ${time[$i]} \
              -best ${best[$i]} \
-        | tee \
-        >(grep -oP 'time:\s*[0-9]+\.[0-9]*\|solution quality:\s*[0-9]+\.[0-9]*' \
-          | awk '{printf "%.3f;%s\n", $1, $2}' >> "$csv") \
-        > remote_results/AILSII/${inst}.txt
+        > remote_results/AILSII/${inst}.csv
+
+        # 添加日志信息
+        echo "Completed run $j for instance $inst, results saved to remote_results/AILSII/${inst}.csv"
     done
 done
