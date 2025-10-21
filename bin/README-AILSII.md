@@ -1,6 +1,5 @@
 ## To run the algorithm
 
-
 java -jar bin/AILSII.jar -file XLDemo/XLTEST-n1048-k139.vrp -best 139 -limit 1 -stoppingCriterion Time 
 
 **-file** : the file address of the problem instance.
@@ -34,3 +33,7 @@ An adaptive iterated local search heuristic for the Heterogeneous Fleet Vehicle 
 https://doi.org/10.1016/j.cor.2022.105954 (also available at [aXiv](https://arxiv.org/abs/2111.12821)).
 
 AILS-II is an Adaptive Iterated Local Search (AILS) meta-heuristic that embeds adaptive strategies to tune  diversity control parameters. These parameters are the perturbation degree and the acceptance criterion. They are key parameters to ensure that the method escapes from local optima and keeps an adequate level of exploitation and exploration of the method. Its implementation is in JAVA language.
+
+## run on windows git bash
+cd /c/Users/79430/Desktop/CVRPLIB-COMP
+bash scripts/AILSII.sh

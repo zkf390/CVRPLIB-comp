@@ -9,9 +9,7 @@ mkdir -p remote_results/AILSII
 for i in {0..7}; do
     inst=${instances[$i]}
     csv="remote_results/AILSII/${inst}.csv"
-    printf "seconds;new best fitness\n" > "$csv"
-
-    for j in {1..1}; do
+    for j in {1..1}; do     
         echo "Run $j instance $inst"
         java -jar -Xms2000m -Xmx4000m bin/AILSII.jar \
              -file XLDemo/${inst}.vrp \
@@ -20,9 +18,8 @@ for i in {0..7}; do
              -limit ${time[$i]} \
              -best ${best[$i]} \
         | tee \
-        >(grep -oP 'time: \K[0-9.]+(?=\s)|solution quality: \K[0-9.]+' \
-          | paste - - \
-          | awk '{printf "%.3f;%d\n", $1, $2}' >> "$csv") \
+        >(grep -oP 'time:\s*[0-9]+\.[0-9]*\|solution quality:\s*[0-9]+\.[0-9]*' \
+          | awk '{printf "%.3f;%s\n", $1, $2}' >> "$csv") \
         > remote_results/AILSII/${inst}.txt
     done
 done

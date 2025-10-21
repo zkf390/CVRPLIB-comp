@@ -1,0 +1,88 @@
+File: XLDemo/XLTEST-n1048-k139.vrp
+Rounded: true
+limit: 2460.0
+Best: 139.0
+LimitTime: 2460.0
+Config 
+stoppingCriterionType: Time
+etaMax: 1.000
+etaMin: 0.010
+gamma: 30
+dMin: 15
+dMax: 30
+varphi: 40
+epsilon: 0.010
+perturbation: [Sequential, Concentric]
+insertionHeuristics: [Distance, Cost]
+limitKnn: 100
+solution quality: 130582.0 gap: 93843.8849% K: 140 iteration: 1 eta: 1.0000 omega: 30.0000 time: 0.236
+solution quality: 130407.0 gap: 93717.9856% K: 139 iteration: 2 eta: 1.0000 omega: 30.0000 time: 0.248
+solution quality: 130246.0 gap: 93602.1583% K: 139 iteration: 3 eta: 1.0000 omega: 30.0000 time: 0.253
+solution quality: 130135.0 gap: 93522.3022% K: 139 iteration: 4 eta: 1.0000 omega: 30.0000 time: 0.257
+solution quality: 130125.0 gap: 93515.1079% K: 139 iteration: 6 eta: 1.0000 omega: 30.0000 time: 0.265
+solution quality: 129675.0 gap: 93191.3669% K: 140 iteration: 7 eta: 1.0000 omega: 30.0000 time: 0.273
+solution quality: 129194.0 gap: 92845.3237% K: 140 iteration: 8 eta: 1.0000 omega: 30.0000 time: 0.279
+solution quality: 129017.0 gap: 92717.9856% K: 140 iteration: 9 eta: 1.0000 omega: 30.0000 time: 0.287
+solution quality: 128851.0 gap: 92598.5612% K: 140 iteration: 23 eta: 1.0000 omega: 30.0000 time: 0.38
+solution quality: 128694.0 gap: 92485.6115% K: 140 iteration: 24 eta: 1.0000 omega: 30.0000 time: 0.384
+solution quality: 128261.0 gap: 92174.1007% K: 139 iteration: 29 eta: 1.0000 omega: 30.0000 time: 0.408
+solution quality: 128198.0 gap: 92128.7770% K: 139 iteration: 32 eta: 1.0000 omega: 30.0000 time: 0.421
+solution quality: 128185.0 gap: 92119.4245% K: 139 iteration: 33 eta: 1.0000 omega: 30.0000 time: 0.425
+solution quality: 128182.0 gap: 92117.2662% K: 139 iteration: 35 eta: 0.9999 omega: 30.0000 time: 0.436
+solution quality: 128172.0 gap: 92110.0719% K: 139 iteration: 36 eta: 0.9999 omega: 30.0000 time: 0.441
+solution quality: 128103.0 gap: 92060.4317% K: 139 iteration: 41 eta: 0.9999 omega: 30.0000 time: 0.46
+solution quality: 128013.0 gap: 91995.6835% K: 139 iteration: 43 eta: 0.9999 omega: 30.0000 time: 0.466
+solution quality: 127889.0 gap: 91906.4748% K: 139 iteration: 129 eta: 0.9992 omega: 9.9825 time: 0.585
+solution quality: 127826.0 gap: 91861.1511% K: 139 iteration: 154 eta: 0.9990 omega: 9.9825 time: 0.595
+solution quality: 127668.0 gap: 91747.4820% K: 139 iteration: 155 eta: 0.9990 omega: 9.9825 time: 0.596
+solution quality: 127666.0 gap: 91746.0432% K: 139 iteration: 156 eta: 0.9990 omega: 9.9825 time: 0.597
+solution quality: 127629.0 gap: 91719.4245% K: 139 iteration: 233 eta: 0.9987 omega: 5.5332 time: 0.635
+solution quality: 127612.0 gap: 91707.1942% K: 139 iteration: 251 eta: 0.9987 omega: 10.8756 time: 0.65
+solution quality: 127594.0 gap: 91694.2446% K: 139 iteration: 272 eta: 0.9986 omega: 10.8756 time: 0.666
+solution quality: 127543.0 gap: 91657.5540% K: 139 iteration: 273 eta: 0.9986 omega: 11.9801 time: 0.667
+solution quality: 127540.0 gap: 91655.3957% K: 139 iteration: 275 eta: 0.9986 omega: 11.9801 time: 0.667
+solution quality: 127511.0 gap: 91634.5324% K: 139 iteration: 276 eta: 0.9986 omega: 10.8756 time: 0.668
+solution quality: 127489.0 gap: 91618.7050% K: 139 iteration: 279 eta: 0.9986 omega: 10.8756 time: 0.67
+solution quality: 127383.0 gap: 91542.4460% K: 139 iteration: 280 eta: 0.9986 omega: 10.8756 time: 0.671
+solution quality: 127373.0 gap: 91535.2518% K: 140 iteration: 317 eta: 0.9985 omega: 14.7706 time: 0.704
+solution quality: 127322.0 gap: 91498.5612% K: 139 iteration: 346 eta: 0.9984 omega: 14.7706 time: 0.734
+solution quality: 127312.0 gap: 91491.3669% K: 139 iteration: 357 eta: 0.9984 omega: 13.4024 time: 0.746
+solution quality: 127296.0 gap: 91479.8561% K: 139 iteration: 375 eta: 0.9983 omega: 13.2607 time: 0.766
+solution quality: 127279.0 gap: 91467.6259% K: 139 iteration: 399 eta: 0.9983 omega: 13.2607 time: 0.792
+solution quality: 127274.0 gap: 91464.0288% K: 139 iteration: 400 eta: 0.9983 omega: 13.2607 time: 0.793
+solution quality: 127158.0 gap: 91380.5755% K: 139 iteration: 401 eta: 0.9983 omega: 15.1970 time: 0.794
+solution quality: 127115.0 gap: 91349.6403% K: 139 iteration: 410 eta: 0.9982 omega: 13.2607 time: 0.803
+solution quality: 127048.0 gap: 91301.4388% K: 139 iteration: 427 eta: 0.9982 omega: 13.2607 time: 0.823
+solution quality: 127013.0 gap: 91276.2590% K: 139 iteration: 428 eta: 0.9982 omega: 15.5350 time: 0.823
+solution quality: 126985.0 gap: 91256.1151% K: 139 iteration: 438 eta: 0.9982 omega: 12.0434 time: 0.832
+solution quality: 126961.0 gap: 91238.8489% K: 140 iteration: 441 eta: 0.9981 omega: 12.0434 time: 0.836
+solution quality: 126923.0 gap: 91211.5108% K: 139 iteration: 461 eta: 0.9981 omega: 12.0434 time: 0.862
+solution quality: 126876.0 gap: 91177.6978% K: 140 iteration: 553 eta: 0.9979 omega: 10.5799 time: 0.952
+solution quality: 126838.0 gap: 91150.3597% K: 139 iteration: 595 eta: 0.9978 omega: 10.9128 time: 0.983
+solution quality: 126812.0 gap: 91131.6547% K: 139 iteration: 620 eta: 0.9977 omega: 13.8920 time: 1.004
+solution quality: 126795.0 gap: 91119.4245% K: 139 iteration: 663 eta: 0.9976 omega: 13.8920 time: 1.045
+solution quality: 126739.0 gap: 91079.1367% K: 139 iteration: 665 eta: 0.9976 omega: 15.9812 time: 1.047
+solution quality: 126727.0 gap: 91070.5036% K: 139 iteration: 766 eta: 0.9974 omega: 18.8723 time: 1.16
+solution quality: 126711.0 gap: 91058.9928% K: 139 iteration: 767 eta: 0.9974 omega: 15.4194 time: 1.161
+solution quality: 126655.0 gap: 91018.7050% K: 139 iteration: 948 eta: 0.9970 omega: 18.1839 time: 1.353
+solution quality: 126648.0 gap: 91013.6691% K: 139 iteration: 949 eta: 0.9970 omega: 18.1839 time: 1.354
+solution quality: 126615.0 gap: 90989.9281% K: 139 iteration: 950 eta: 0.9970 omega: 18.1839 time: 1.356
+solution quality: 126610.0 gap: 90986.3309% K: 139 iteration: 955 eta: 0.9970 omega: 19.7757 time: 1.36
+solution quality: 126592.0 gap: 90973.3813% K: 139 iteration: 998 eta: 0.9969 omega: 19.7757 time: 1.41
+solution quality: 126486.0 gap: 90897.1223% K: 139 iteration: 999 eta: 0.9969 omega: 14.3944 time: 1.412
+solution quality: 126433.0 gap: 90858.9928% K: 140 iteration: 1041 eta: 0.9968 omega: 14.8503 time: 1.459
+solution quality: 126430.0 gap: 90856.8345% K: 139 iteration: 1656 eta: 0.9955 omega: 16.4863 time: 2.112
+solution quality: 126365.0 gap: 90810.0719% K: 139 iteration: 1699 eta: 0.9954 omega: 16.0476 time: 2.159
+solution quality: 126328.0 gap: 90783.4532% K: 139 iteration: 1896 eta: 0.9950 omega: 15.6563 time: 2.39
+solution quality: 126318.0 gap: 90776.2590% K: 139 iteration: 1988 eta: 0.9948 omega: 15.3724 time: 2.496
+solution quality: 126315.0 gap: 90774.1007% K: 139 iteration: 1994 eta: 0.9947 omega: 19.9000 time: 2.503
+solution quality: 126212.0 gap: 90700.0000% K: 139 iteration: 1998 eta: 0.9947 omega: 19.9000 time: 2.507
+solution quality: 126177.0 gap: 90674.8201% K: 139 iteration: 1999 eta: 0.9947 omega: 15.3724 time: 2.508
+solution quality: 126140.0 gap: 90648.2014% K: 139 iteration: 2348 eta: 0.9940 omega: 17.2533 time: 2.894
+solution quality: 126135.0 gap: 90644.6043% K: 139 iteration: 4485 eta: 0.9895 omega: 16.3699 time: 5.348
+solution quality: 126084.0 gap: 90607.9137% K: 139 iteration: 4486 eta: 0.9895 omega: 14.6867 time: 5.349
+solution quality: 126057.0 gap: 90588.4892% K: 139 iteration: 4505 eta: 0.9895 omega: 16.7861 time: 5.37
+solution quality: 126046.0 gap: 90580.5755% K: 139 iteration: 16943 eta: 0.9629 omega: 23.6639 time: 20.224
+solution quality: 126017.0 gap: 90559.7122% K: 139 iteration: 18853 eta: 0.9589 omega: 20.0422 time: 22.433
+solution quality: 126009.0 gap: 90553.9568% K: 139 iteration: 18856 eta: 0.9589 omega: 20.0422 time: 22.436
+solution quality: 125986.0 gap: 90537.4101% K: 139 iteration: 18857 eta: 0.9589 omega: 20.0422 time: 22.437
